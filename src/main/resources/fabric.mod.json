@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "cardboard-boxes",
+	"version": "${version}",
+	"name": "Cardboard Boxes",
+	"description": "A mod that adds an early game storage solution!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cardboard-boxes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"consular.cardboard.CardboardBoxes"
+		],
+		"client": [
+			"consular.cardboard.CardboardBoxesClient"
+		]
+	},
+	"mixins": [
+		"cardboard-boxes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

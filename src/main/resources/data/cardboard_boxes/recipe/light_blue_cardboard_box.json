@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "cardboard_boxes:cardboard_box"
+      },
+      {
+        "item": "minecraft:light_blue_dye"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "id": "cardboard_boxes:light_blue_cardboard_box"
+    }
+  }

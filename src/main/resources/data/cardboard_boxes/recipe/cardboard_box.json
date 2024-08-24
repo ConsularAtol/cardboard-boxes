@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      }
+    },
+    "pattern": [
+      "P P",
+      "#P#"
+    ],
+    "result": {
+      "count": 1,
+      "id": "cardboard_boxes:cardboard_box"
+    }
+  }

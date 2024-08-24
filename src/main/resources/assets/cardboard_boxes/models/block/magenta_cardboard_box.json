@@ -1,0 +1,7 @@
+{
+	"parent": "cardboard_boxes:block/cardboard_box",
+	"textures": {
+		"0": "cardboard_boxes:block/magenta_cardboard_box",
+		"particle": "cardboard_boxes:block/magenta_cardboard_box"
+	}
+}

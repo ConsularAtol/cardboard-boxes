@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "cardboard_boxes:cardboard_box"
+      },
+      {
+        "item": "minecraft:cyan_dye"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "id": "cardboard_boxes:cyan_cardboard_box"
+    }
+  }
