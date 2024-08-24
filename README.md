@@ -13,4 +13,4 @@ Of course, there are a few key differences between the cardboard box and the shu
 
 ![image](https://github.com/user-attachments/assets/c64e792a-03a4-4360-b590-210286166cf5)
 
-Hopefully you have something more valueable to store than raw cod, happy boxing!
+Hopefully you have something more valuable to store than raw cod, happy boxing!
