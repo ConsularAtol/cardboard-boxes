@@ -14,8 +14,6 @@ import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.screen.ScreenHandler;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.collection.DefaultedList;
@@ -62,7 +60,6 @@ public class CardboardBoxBlockEntity extends LootableContainerBlockEntity implem
 			this.viewerCount++;
 			this.world.addSyncedBlockEvent(this.pos, this.getCachedState().getBlock(), 1, this.viewerCount);
 			this.world.emitGameEvent(player, GameEvent.CONTAINER_OPEN, this.pos);
-			this.world.playSound(null, this.pos, SoundEvents.BLOCK_SHULKER_BOX_OPEN, SoundCategory.BLOCKS, 0.5F, this.world.random.nextFloat() * 0.1F + 0.9F);
 		}
 	}
 
@@ -70,7 +67,6 @@ public class CardboardBoxBlockEntity extends LootableContainerBlockEntity implem
 	public void onClose(PlayerEntity player) {
 		if (!this.removed && !player.isSpectator()) {
 			this.world.emitGameEvent(player, GameEvent.CONTAINER_CLOSE, this.pos);
-			this.world.playSound(null, this.pos, SoundEvents.BLOCK_SHULKER_BOX_CLOSE, SoundCategory.BLOCKS, 0.5F, this.world.random.nextFloat() * 0.1F + 0.9F);
 		}
 	}
 
