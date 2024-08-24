@@ -3,13 +3,11 @@
 	"id": "cardboard-boxes",
 	"version": "${version}",
 	"name": "Cardboard Boxes",
-	"description": "A mod that adds an early game storage solution!",
+	"description": "An early game alternative to shulker boxes",
 	"authors": [
-		"Me!"
+		"Consular"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/cardboard-boxes/icon.png",
