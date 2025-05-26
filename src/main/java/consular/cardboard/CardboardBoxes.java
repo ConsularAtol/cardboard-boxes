@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import consular.cardboard.registry.ModBlockEntityTypes;
 import consular.cardboard.registry.ModBlocks;
+import consular.cardboard.registry.ModRecipeSerializer;
 import consular.cardboard.registry.ModScreenHandlers;
 
 public class CardboardBoxes implements ModInitializer {
@@ -17,6 +18,7 @@ public class CardboardBoxes implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModRecipeSerializer.registerSerializer();
 		ModBlocks.registerModBlocks();
 		ModBlockEntityTypes.registerBlockEntities();
 		ModScreenHandlers.registerAllHandlers();
